@@ -1,0 +1,39 @@
+#header img {
+    width: 100px;
+}
+
+
+
+#main .carousel-inner img{
+    max-height: 75vh;
+    object-fit: scale-down;
+    filter: grayscale(70%);
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: (0,0,0,0);
+    color: blue;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#footer {
+    background-color: blue;
+}
+
+#footer a {
+    color: black;
+}
+
